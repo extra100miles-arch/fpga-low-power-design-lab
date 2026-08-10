@@ -1,10 +1,8 @@
-fpga-low-power-design-lab
+fpga-low-power-design-lab/
 │
 ├── README.md
 ├── LICENSE
 ├── .gitignore
-│
-├── constraints/
 │
 ├── rtl/
 │   ├── common/
@@ -24,12 +22,14 @@ fpga-low-power-design-lab
 │   ├── v5/
 │   └── v6/
 │
+├── constraints/
+│
 ├── docs/
 │   ├── architecture/
 │   ├── report/
 │   ├── blog/
-│   ├── images/
-│   └── diagrams/
+│   ├── diagrams/
+│   └── images/
 │
 ├── results/
 │   ├── baseline/
@@ -39,6 +39,4 @@ fpga-low-power-design-lab
 │   ├── resource_sharing/
 │   └── fsm_optimization/
 │
-├── scripts/
-│
-└── simulation/
+└── scripts/
