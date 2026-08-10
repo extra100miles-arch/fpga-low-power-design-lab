@@ -1,0 +1,13 @@
+*.jou
+*.log
+*.str
+*.cache
+*.hw
+*.runs
+*.sim
+*.Xil
+*.wdb
+*.vcd
+*.bit
+*.bin
+*.ltx
