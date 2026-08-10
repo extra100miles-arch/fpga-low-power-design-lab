@@ -1,0 +1,44 @@
+fpga-low-power-design-lab
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── constraints/
+│
+├── rtl/
+│   ├── common/
+│   ├── v1_baseline/
+│   ├── v2_clock_enable/
+│   ├── v3_operand_isolation/
+│   ├── v4_pipeline_control/
+│   ├── v5_resource_sharing/
+│   └── v6_fsm_optimization/
+│
+├── tb/
+│   ├── common/
+│   ├── v1/
+│   ├── v2/
+│   ├── v3/
+│   ├── v4/
+│   ├── v5/
+│   └── v6/
+│
+├── docs/
+│   ├── architecture/
+│   ├── report/
+│   ├── blog/
+│   ├── images/
+│   └── diagrams/
+│
+├── results/
+│   ├── baseline/
+│   ├── clock_enable/
+│   ├── operand_isolation/
+│   ├── pipeline_control/
+│   ├── resource_sharing/
+│   └── fsm_optimization/
+│
+├── scripts/
+│
+└── simulation/
