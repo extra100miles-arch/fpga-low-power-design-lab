@@ -1,0 +1,10 @@
+Project Planning – Repository structure, coding standards, measurement methodology, and documentation plan.
+Pipeline Architecture – Define the streaming pipeline, interfaces, timing, latency, and block diagrams.
+Baseline Design – Implement the always-active reference pipeline with no power optimizations.
+Clock Enable – Update sequential logic only when pixel_valid is asserted using synchronous clock enables.
+Operand Isolation – Prevent unnecessary combinational switching when input data is invalid.
+Pipeline Control – Add valid/ready handshaking and memory enables to eliminate unnecessary activity during stalls.
+Resource Sharing – Reuse arithmetic hardware and analyze the area, timing, and power trade-offs.
+FSM Optimization – Compare binary and one-hot state encoding and measure their effect on utilization, timing, and power.
+Experimental Analysis – Collect Vivado power, utilization, timing, and schematic reports; compare every version quantitatively.
+Portfolio Polish – Produce a professional README, engineering report, diagrams, comparison tables, and a Medium article documenting the experiment.
