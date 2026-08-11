@@ -1,0 +1,56 @@
+fpga-low-power-design-lab/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── rtl/
+│   ├── common/
+│   │
+│   ├── v1_baseline/
+│   │   ├── pixel_source.sv
+│   │   ├── gray_converter.sv
+│   │   ├── edge_detector.sv
+│   │   ├── threshold.sv
+│   │   ├── output_register.sv
+│   │   └── pipeline_top.sv
+│   │
+│   ├── v2_clock_enable/
+│   ├── v3_operand_isolation/
+│   ├── v4_pipeline_control/
+│   ├── v5_resource_sharing/
+│   └── v6_fsm_optimization/
+│
+├── tb/
+│   ├── common/
+│   │
+│   ├── v1/
+│   │   ├── reference_model.sv
+│   │   └── tb_pipeline_top.sv
+│   │
+│   ├── v2/
+│   ├── v3/
+│   ├── v4/
+│   ├── v5/
+│   └── v6/
+│
+├── constraints/
+│   └── baseline.xdc
+│
+├── docs/
+│   ├── architecture/
+│   │   ├── system_architecture.md
+│   │   ├── coding_guidelines.md
+│   │   ├── simulation_methodology.md
+│   │   ├── power_measurement.md
+│   │   └── baseline_design.md
+│   │
+│   ├── report/
+│   ├── blog/
+│   ├── diagrams/
+│   └── images/
+│
+├── results/
+│   └── baseline/
+│
+└── scripts/
